@@ -1,0 +1,43 @@
+.roulette-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    overflow: hidden;
+    background-color: #222;
+  }
+  
+  .roulette-wheel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 4s cubic-bezier(0.32, 0.94, 0.6, 1);
+  }
+  
+  .roulette-slot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px; /* Center each slot */
+    margin-left: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1rem;
+    transform-origin: center; /* Ensure rotation occurs around the center */
+  }
+  
+  .roulette-slot .text {
+    transform: rotate(90deg); /* Adjust as needed so text points inward */
+    text-align: center;
+  }
+  
