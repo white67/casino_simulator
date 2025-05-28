@@ -76,5 +76,5 @@ A simple full-stack web application simulating a casino environment. Features in
 
 ## Screenshots
 
-![Roulette Game](https://raw.githubusercontent.com/white67/casino_simulator/main/utils/roulette.png)
+![Roulette Game](https://raw.githubusercontent.com/white67/casino_simulator/refs/heads/master/utils/roulette.png)
 
